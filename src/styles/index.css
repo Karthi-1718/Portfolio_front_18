@@ -164,3 +164,5 @@ html{scroll-padding-top:86px}
 .cube-face-copy{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:7px;text-align:center}
 .cube-face-copy small{font:9px var(--mono);letter-spacing:.07em;color:#c3ddfa;text-shadow:0 1px 5px rgba(5,20,39,.7)}
 @media(max-width:760px){.cube-face-copy{gap:5px}.cube-face-copy small{font-size:7px}}
+
+@media(max-width:760px){.portrait-art{height:auto;min-height:0;flex:none}.portrait-art img{position:relative;inset:auto;display:block;width:100%;height:auto;object-fit:contain;object-position:center}}
